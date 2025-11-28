@@ -95,7 +95,7 @@ export default function Projects() {
                   />
                   <h3
                     style={{
-                      fontSize: '12px',
+                      fontSize: '14px',
                       color: 'var(--text-dark)',
                       margin: 0,
                     }}
@@ -105,10 +105,10 @@ export default function Projects() {
                 </div>
                 <p
                   style={{
-                    fontSize: '8px',
-                    lineHeight: '1.6',
+                    fontSize: '10px',
+                    lineHeight: '1.8',
                     color: 'var(--text-dark)',
-                    marginBottom: '16px',
+                    marginBottom: '20px',
                   }}
                 >
                   {project.description}
@@ -117,16 +117,16 @@ export default function Projects() {
                   style={{
                     display: 'flex',
                     flexWrap: 'wrap',
-                    gap: '8px',
-                    marginBottom: '16px',
+                    gap: '10px',
+                    marginBottom: '20px',
                   }}
                 >
                   {project.technologies.map((tech) => (
                     <span
                       key={tech}
                       style={{
-                        fontSize: '6px',
-                        padding: '4px 8px',
+                        fontSize: '8px',
+                        padding: '6px 12px',
                         backgroundColor: 'var(--primary-cyan)',
                         color: 'var(--text-dark)',
                         border: '2px solid var(--border-black)',
@@ -139,7 +139,7 @@ export default function Projects() {
                 <div
                   style={{
                     display: 'flex',
-                    gap: '12px',
+                    gap: '16px',
                     flexWrap: 'wrap',
                   }}
                 >
@@ -149,7 +149,7 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{
-                        fontSize: '8px',
+                        fontSize: '10px',
                         color: 'var(--primary-red)',
                         textDecoration: 'none',
                         display: 'inline-block',
@@ -164,7 +164,7 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{
-                        fontSize: '8px',
+                        fontSize: '10px',
                         color: 'var(--primary-cyan)',
                         textDecoration: 'none',
                         display: 'inline-block',
@@ -179,7 +179,7 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{
-                        fontSize: '8px',
+                        fontSize: '10px',
                         color: 'var(--primary-cyan)',
                         textDecoration: 'none',
                         display: 'inline-block',

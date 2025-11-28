@@ -57,7 +57,7 @@ export default function Header() {
         >
           <motion.div
             style={{
-              fontSize: '12px',
+              fontSize: '14px',
               color: 'var(--primary-yellow)',
               cursor: 'pointer',
             }}
@@ -89,8 +89,8 @@ export default function Header() {
                 variant={activeSection === item.id ? 'secondary' : 'primary'}
                 className="nav-button"
                 style={{
-                  fontSize: '8px',
-                  padding: '8px 16px',
+                  fontSize: '10px',
+                  padding: '10px 20px',
                 }}
               >
                 {item.label}

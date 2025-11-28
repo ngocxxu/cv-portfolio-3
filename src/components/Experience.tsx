@@ -124,33 +124,33 @@ export default function Experience() {
                   >
                     <h3
                       style={{
-                        fontSize: '14px',
+                        fontSize: '16px',
                         color: 'var(--text-dark)',
-                        marginBottom: '8px',
+                        marginBottom: '12px',
                       }}
                     >
                       {exp.title}
                     </h3>
                     <p
                       style={{
-                        fontSize: '10px',
+                        fontSize: '12px',
                         color: 'var(--primary-red)',
-                        marginBottom: '8px',
+                        marginBottom: '12px',
                       }}
                     >
                       {exp.company} • {exp.period}
                     </p>
                     <ul
                       style={{
-                        fontSize: '8px',
-                        lineHeight: '1.8',
+                        fontSize: '10px',
+                        lineHeight: '2',
                         color: 'var(--text-dark)',
-                        paddingLeft: '16px',
+                        paddingLeft: '20px',
                         margin: 0,
                       }}
                     >
                       {exp.description.map((item, idx) => (
-                        <li key={idx} style={{ marginBottom: '8px' }}>
+                        <li key={idx} style={{ marginBottom: '12px' }}>
                           {item}
                         </li>
                       ))}

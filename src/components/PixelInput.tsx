@@ -15,8 +15,8 @@ export default function PixelInput({
         <label
           style={{
             display: 'block',
-            marginBottom: '8px',
-            fontSize: '10px',
+            marginBottom: '12px',
+            fontSize: '12px',
             color: 'var(--text-light)',
           }}
         >

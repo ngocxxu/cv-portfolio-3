@@ -65,8 +65,8 @@ export default function Skills() {
               </div>
               <h3
                 style={{
-                  fontSize: '12px',
-                  marginBottom: '12px',
+                  fontSize: '14px',
+                  marginBottom: '16px',
                   color: 'var(--text-dark)',
                 }}
               >
@@ -75,9 +75,9 @@ export default function Skills() {
               <div
                 style={{
                   width: '100%',
-                  height: '20px',
+                  height: '24px',
                   backgroundColor: 'var(--text-light)',
-                  border: '2px solid var(--border-black)',
+                  border: '3px solid var(--border-black)',
                   position: 'relative',
                   overflow: 'hidden',
                 }}
@@ -90,7 +90,7 @@ export default function Skills() {
                   style={{
                     height: '100%',
                     backgroundColor: 'var(--health-green)',
-                    borderRight: '2px solid var(--border-black)',
+                    borderRight: '3px solid var(--border-black)',
                   }}
                 />
                 <div
@@ -99,7 +99,7 @@ export default function Skills() {
                     top: '50%',
                     left: '50%',
                     transform: 'translate(-50%, -50%)',
-                    fontSize: '8px',
+                    fontSize: '10px',
                     color: 'var(--text-dark)',
                     fontWeight: 'bold',
                   }}

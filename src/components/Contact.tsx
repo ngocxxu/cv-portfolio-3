@@ -67,12 +67,12 @@ export default function Contact() {
                 onChange={handleChange}
                 required
               />
-              <div style={{ marginBottom: '20px' }}>
+              <div style={{ marginBottom: '24px' }}>
                 <label
                   style={{
                     display: 'block',
-                    marginBottom: '8px',
-                    fontSize: '10px',
+                    marginBottom: '12px',
+                    fontSize: '12px',
                     color: 'var(--text-dark)',
                   }}
                 >
@@ -99,14 +99,14 @@ export default function Contact() {
 
           <div
             style={{
-              marginTop: '40px',
+              marginTop: '50px',
               textAlign: 'center',
             }}
           >
             <p
               style={{
-                fontSize: '10px',
-                marginBottom: '16px',
+                fontSize: '12px',
+                marginBottom: '20px',
               }}
             >
               Or reach me at:
@@ -115,14 +115,14 @@ export default function Contact() {
               style={{
                 display: 'flex',
                 justifyContent: 'center',
-                gap: '24px',
+                gap: '28px',
                 flexWrap: 'wrap',
               }}
             >
               <a
                 href="mailto:ngocquach43@gmail.com"
                 style={{
-                  fontSize: '8px',
+                  fontSize: '10px',
                   color: 'var(--primary-cyan)',
                   textDecoration: 'none',
                 }}
@@ -134,7 +134,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
-                  fontSize: '8px',
+                  fontSize: '10px',
                   color: 'var(--primary-cyan)',
                   textDecoration: 'none',
                 }}
@@ -146,7 +146,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
-                  fontSize: '8px',
+                  fontSize: '10px',
                   color: 'var(--primary-cyan)',
                   textDecoration: 'none',
                 }}

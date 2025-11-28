@@ -59,44 +59,44 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             style={{
-              fontSize: '10px',
-              lineHeight: '1.8',
+              fontSize: '12px',
+              lineHeight: '2',
             }}
           >
             <h3
               style={{
-                fontSize: '16px',
-                marginBottom: '16px',
+                fontSize: '20px',
+                marginBottom: '20px',
                 color: 'var(--primary-yellow)',
               }}
             >
               Say Hi from Ngoc, Fullstack Developer
             </h3>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '24px', fontSize: '12px' }}>
               My energy never runs out at work!
             </p>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '24px', fontSize: '12px' }}>
               As a developer, I specialize in creating elegantly simple solutions, and I'm deeply passionate about my craft. It's just as straightforward as that! My approach prioritizes simplicity and beauty in every project I undertake. This philosophy fuels my passion and commitment to excellence every day.
             </p>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '24px', fontSize: '12px' }}>
               Every great website begin with an even better story. I used to work in chemical engineering, but my passion for IT, which ignited during middle school, led me back to the tech world. Exploring frontend development excites me because I aim to deliver top products that not only meet consumer needs but exceed expectations.
             </p>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '24px', fontSize: '12px' }}>
               Move your mouse around to see the character follow your cursor!
             </p>
             <div
               style={{
                 display: 'flex',
-                gap: '12px',
+                gap: '16px',
                 flexWrap: 'wrap',
-                marginTop: '24px',
+                marginTop: '28px',
               }}
             >
               <span
                 className="pixel-border"
                 style={{
-                  padding: '8px 16px',
-                  fontSize: '8px',
+                  padding: '10px 20px',
+                  fontSize: '10px',
                   backgroundColor: 'var(--primary-cyan)',
                   color: 'var(--text-dark)',
                 }}
@@ -106,8 +106,8 @@ export default function About() {
               <span
                 className="pixel-border"
                 style={{
-                  padding: '8px 16px',
-                  fontSize: '8px',
+                  padding: '10px 20px',
+                  fontSize: '10px',
                   backgroundColor: 'var(--primary-yellow)',
                   color: 'var(--text-dark)',
                 }}
@@ -117,8 +117,8 @@ export default function About() {
               <span
                 className="pixel-border"
                 style={{
-                  padding: '8px 16px',
-                  fontSize: '8px',
+                  padding: '10px 20px',
+                  fontSize: '10px',
                   backgroundColor: 'var(--primary-mint)',
                   color: 'var(--text-dark)',
                 }}
