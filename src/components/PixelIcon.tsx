@@ -21,9 +21,6 @@ export default function PixelIcon({
       style={{
         width: `${size}px`,
         height: `${size}px`,
-        imageRendering: 'pixelated',
-        imageRendering: '-moz-crisp-edges',
-        imageRendering: 'crisp-edges',
       }}
       {...props}
     />
