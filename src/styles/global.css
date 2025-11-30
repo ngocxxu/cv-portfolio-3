@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url('/cursor-pixel.svg') 0 0, auto;
 }
 
 :root {
@@ -48,6 +49,7 @@ body {
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
+  cursor: url('/cursor-pixel.svg') 0 0, auto;
 }
 
 body::before {
@@ -130,7 +132,7 @@ body::after {
   color: var(--text-dark);
   border: 4px solid var(--border-black);
   padding: 14px 28px;
-  cursor: pointer;
+  cursor: url('/cursor-pointer.svg') 4 4, pointer;
   text-transform: uppercase;
   font-size: 12px;
   transition: all 0.1s ease;
@@ -329,5 +331,21 @@ img {
 
 .float-effect {
   animation: float 3s ease-in-out infinite;
+}
+
+a,
+button,
+[role="button"],
+[onclick],
+.pixel-button,
+input[type="button"],
+input[type="submit"] {
+  cursor: url('/cursor-pointer.svg') 8 8, pointer;
+}
+
+input,
+textarea,
+[contenteditable] {
+  cursor: url('/cursor-pixel.svg') 0 0, text;
 }
 

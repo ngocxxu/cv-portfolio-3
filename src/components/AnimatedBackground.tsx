@@ -8,6 +8,7 @@ interface Particle {
   size: number;
   speedX: number;
   speedY: number;
+  duration: number;
 }
 
 export default function AnimatedBackground() {
@@ -25,10 +26,15 @@ export default function AnimatedBackground() {
         size: Math.random() * 4 + 2,
         speedX: (Math.random() - 0.5) * 0.5,
         speedY: (Math.random() - 0.5) * 0.5,
+        duration: Math.random() * 10 + 10,
       });
     }
 
-    setParticles(newParticles);
+    const timeout = setTimeout(() => {
+      setParticles(newParticles);
+    }, 0);
+
+    return () => clearTimeout(timeout);
   }, []);
 
   return (
@@ -64,7 +70,7 @@ export default function AnimatedBackground() {
             scale: [1, 1.2, 1],
           }}
           transition={{
-            duration: Math.random() * 10 + 10,
+            duration: particle.duration,
             repeat: Infinity,
             ease: 'easeInOut',
           }}
